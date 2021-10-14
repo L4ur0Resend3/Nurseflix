@@ -50,9 +50,10 @@ header nav a:hover{
 /* Filme principal*/
 .filme-principal{
     font-size: 16px;
-    background: /*linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%)*/ url(./img/NursesBanner.jpg);
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/mini7.jpg);
     height: 400px;
-    background-size:cover;
+	background-size:cover;
+    --background-size:auto;
 
     display: flex;
     flex-direction: column;
@@ -109,16 +110,3 @@ header nav a:hover{
     display: block;
 }
 
-.herois{
-    width: 500px;
-    height: 300px;
-}
-.guerra{
-    width: 400px;
-    height: 300px;
-}
-
-.ratchel{
-    width: 400px;
-    height: 300px;
-}
