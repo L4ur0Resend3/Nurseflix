@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="boodstrap/css/bootstrap.min.css">
+
+   
+
+    <title>NURSEFLIX</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NURSEFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <class class="container">
+                <h3 class="titulo">NURSES</h3>
+                <p class="descricao">Nurses é uma série médica canadense que acompanha o dia-a-dia de cinco enfermeiros no hospital St. ... A trama é centrada em Grace Knight (Tiera Skovbye), uma nova enfermeira recém chegada ao hospital lidando com dilemas da profissão e tentando equilibrar sua carreira com sua vida pessoal e romântica.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </class>
+        </div>
+    </main>
+
+
+    <div id="carouselfilms" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselfilms" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselfilms" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselfilms" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item herois active">
+            <img src="img/HeroisDoCuidado.jpg" class="d-block w-100" alt="HeroisDoCuidado">
+          </div>
+          <div class="carousel-item guerra">
+            <img src="img/NosTemposDeGuerra.jpg" class="d-block w-100" alt="NosTemposDeGuerra">
+          </div>
+          <div class="carousel-item ratchel">
+            <img src="img/Ratched.jpg" class="d-block w-100" alt="Ratched">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <script src="https://kit.fontawesome.com/be6cf2dbfa.js" crossorigin="anonymous"></script>
+    <script src="/js/setup.js"></script>
+    <script src="boodstrap/js/bootstrap.min.js"></script>
+      
+</body>
+</html>
